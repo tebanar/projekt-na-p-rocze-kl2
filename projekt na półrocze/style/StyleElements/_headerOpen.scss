@@ -1,0 +1,21 @@
+.header__menu--open {
+  width: 400px;
+  height: auto;
+  background-color: $color4;
+  border: 1em solid  $color1;
+  display: none;
+  z-index: 100;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 15vh;
+  padding: 3em;
+}
+.header__menu--open ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 8vh;
+}
+

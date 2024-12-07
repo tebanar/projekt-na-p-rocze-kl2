@@ -1,0 +1,8 @@
+body {
+  width: 100vw;
+  background-color: $color1;
+  box-sizing: border-box;
+  @include center;
+  flex-wrap: wrap;
+  background-color: $color2;
+}
