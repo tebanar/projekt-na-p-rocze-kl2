@@ -44,10 +44,6 @@ body {
   background-color: blue;
 }
 
-.header__menu:hover {
-  background-color: blue;
-}
-
 .header__menu--open {
   width: 400px;
   height: auto;
