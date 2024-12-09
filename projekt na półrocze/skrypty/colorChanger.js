@@ -11,10 +11,9 @@ for (let i = 0; i < cssList.length; i++) {
   cssList[i].style.fontSize = ((i+1)*30) + "px";
 }
 
-x = 3
+x = 1
 function zmiana() {
   if (x % 2 != 0){
-    let cssList = document.querySelectorAll(".klasa");
 
     for (let i = 0; i < cssList.length; i++) {
         cssList[i].style.color = "green";
@@ -25,13 +24,10 @@ function zmiana() {
         
     }  x++
   } else {
-      let cssList = document.querySelectorAll(".klasa");
       for (let i = 0; i < cssList.length; i++) {
         cssList[i].style.color = "blue";
         cssList[i].style.backgroundColor = "pink";
         cssList[i].style.fontSize = ((i+1)*30) + "px";
-        cssList[i].style.height= "auto";
-        cssList[i].style.width= "auto";
         cssList[i].style.border =  "";}
         x++
   }
